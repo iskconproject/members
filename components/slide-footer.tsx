@@ -1,6 +1,8 @@
 "use client";
 
-import {motion} from "framer-motion";
+import { inter } from "@/lib/fonts";
+import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
 
 interface SlideContentProps {
   memberName: string;
@@ -37,7 +39,7 @@ export function SlideFooter({
           </motion.h2>
           {info && (
             <p
-              className="text-xl md:text-2xl text-white/90"
+              className={cn(inter.className, "text-xl md:text-2xl text-white/90 font-light")}
             >
               {info}
             </p>

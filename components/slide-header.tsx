@@ -1,5 +1,8 @@
 "use client";
+
+import { inter } from "@/lib/fonts";
 import IskconAsansolLogoIcon from "./iskcon-asansol-logo";
+import { cn } from "@/lib/utils";
 
 interface SlideHeaderProps {
   title: string;
@@ -26,18 +29,18 @@ export function SlideHeader({ title, subtitle, logo = "/iskcon-logo.png" }: Slid
           <div
             className="flex-grow text-center mx-4"
           >
-            <h1 className="text-3xl md:text-5xl font-bold text-white">
+            <h1 className={cn(inter.className, 'text-3xl md:text-5xl font-semibold text-white')}>
               {title}
             </h1>
-            {/* {subtitle && (
+          {/* {subtitle && (
               <p className="text-white/90 mt-2 text-lg">{subtitle}</p>
             )} */}
-          </div>
-
-          {/* ISKCON Logo */}
-
         </div>
+
+        {/* ISKCON Logo */}
+
       </div>
     </div>
+    </div >
   );
 }
