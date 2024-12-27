@@ -1,0 +1,22 @@
+{
+    "sevas": [
+      {
+        "id": 1,
+        "name": "founder-member",
+        "title": "Founder Member",
+        "description": " "
+      },
+      {
+        "id": 2,
+        "name": "rajbhog-seva",
+        "title": "Rajbhog Seva Member",
+        "description": " "
+      },
+      {
+        "id": 3,
+        "name": "nitya-seva",
+        "title": "Nitya Seva Member",
+        "description": " "
+      }
+    ]
+  }

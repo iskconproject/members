@@ -1,0 +1,230 @@
+{
+    "slides": [
+        {
+            "id": "1",
+            "sevaId": 1,
+            "memberName": "Amarnath Chatterjee"
+        },
+        {
+            "id": "2",
+            "sevaId": 1,
+            "memberName": "Suresh Shaw"
+        },
+        {
+            "id": "3",
+            "sevaId": 1,
+            "memberName": "Niyati Chakraborty",
+            "address": "BFQ 3/3, Near Nurses Hostel, Kalla Central Hospital, Po- Kalla Hospital, Dist: Paschim Bardhaman, Pin 713340"
+        },
+        {
+            "id": "4",
+            "sevaId": 1,
+            "memberName": "Kabita Das",
+            "address": "Fatehpur, Street 54, Q.No- 173, Dist: Paschim Bardhaman, Pin: 713331"
+        },
+        {
+            "id": "5",
+            "sevaId": 1,
+            "memberName": "Nakul Ch Das",
+            "address": "Pandaveswar P.0 - Pandaveswar, Dist - Paschim Bardhaman, Pin - 713346"
+        },
+        {
+            "id": "6",
+            "sevaId": 1,
+            "memberName": "Dr. Giridharilal Sinha Barman",
+            "address": "Katwa, Po- Katwa, Dist- Purba Bardhaman"
+        },
+        {
+            "id": "7",
+            "sevaId": 1,
+            "memberName": "Rajkumar Mukherjee",
+            "address": "Asansol, Sreepally, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "8",
+            "sevaId": 1,
+            "memberName": "Ganesh Singh",
+            "address": "Sumath Pally, Rashdanga, Asansol, Near Sumath Pally Durga Mandir, Dist - Paschim Bardhaman, Pin - 713301"
+        },
+        {
+            "id": "9",
+            "sevaId": 1,
+            "memberName": "Samiran Bouri",
+            "address": "Seetalpur Shivmandir, Bauripara, Pin- 713333, Dist- Paschim Bardhaman"
+        },
+        {
+            "id": "10",
+            "sevaId": 1,
+            "memberName": "Pradip Kumar Mandal",
+            "address": "Shantiniketan Complex-2, 1st Floor-A, Upper Chelidanga, Behind Shantiniketan Complex-1, Post- Upper Chelidanga, Pin - 713304, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "11",
+            "sevaId": 1,
+            "memberName": "Tanmay Biswas",
+            "address": "178/1, R.B Avenue, Bhadreswar, Dist - Hoogly, Pin-712124, 2nd-Address - 84/A, Bathe Road, Railway Hospital Colony, Dist - Paschim Bardhaman, Pin - 712124"
+        },
+        {
+            "id": "12",
+            "sevaId": 1,
+            "memberName": "Anupama Das",
+            "address": "Abasar, Natunpally, Chhotodighari, Po - Chhotodighari, Dist- Paschim Bardhaman, Pin- 713326"
+        },
+        {
+            "id": "13",
+            "sevaId": 1,
+            "memberName": "Kalyan Kumar Maji",
+            "address": "Pratulananda Villa, Santa Village, Po - Santa, Dist- Paschim Bardhaman, Pin- 713325"
+        },
+        {
+            "id": "14",
+            "sevaId": 1,
+            "memberName": "Hrishikesh Maiti",
+            "address": "Qtr No - 5/Q-16, South Parasea Colliery Dispensary Complex, Post - Parasea, Dist - Paschim Bardhaman, Pin - 713384"
+        },
+        {
+            "id": "15",
+            "sevaId": 1,
+            "memberName": "Jasmer Singh",
+            "address": "Sukopara, Ukhra, Po - Ukhra, Pin - 713363, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "16",
+            "sevaId": 1,
+            "memberName": "Sagari Pal",
+            "address": "Agamoni Apartment, Flat No 3/A, Apcar Garden, Asansol (Near Minibus Association), Po - Asansol, Pin - 713304, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "17",
+            "sevaId": 1,
+            "memberName": "Madhu Sudan Mandal",
+            "address": "Jamunatri Apartment Flat No- C/4, Murgasol, Asansol, Po - Ushagram, Pin - 713303, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "18",
+            "sevaId": 1,
+            "memberName": "Dilip Kumar Adhikary - Maji",
+            "address": "Village - Satgram, Po - Satgram, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "19",
+            "sevaId": 1,
+            "memberName": "Maniklal Maji",
+            "address": "Satgram Pathak, N.H.2, Po - Bidhanbag, Dist - Paschim Bardhaman, Pin - 713337"
+        },
+        {
+            "id": "20",
+            "sevaId": 1,
+            "memberName": "Sri Janaki Stores Asansol",
+            "address": "Po - Asansol, Dist - Paschim Bardhaman, Pin - 713301"
+        },
+        {
+            "id": "21",
+            "sevaId": 1,
+            "memberName": "Sova Biswas",
+            "address": "72x Bidhan Pally, Upper Chelidanga, Po - Upper Chelidanga, Pin - 713304, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "22",
+            "sevaId": 1,
+            "memberName": "Debasis Majumdar",
+            "address": "116/IA, Apcar Garden, Apcar Garden Park, Asansol, Po - Asansol, Pin - 713304, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "23",
+            "sevaId": 1,
+            "memberName": "Joygopal Maji, Mithu Maji",
+            "address": "Santa, 8.No, Po - Santa, Dist- Paschim Bardhaman, Pin - 713325"
+        },
+        {
+            "id": "24",
+            "sevaId": 1,
+            "memberName": "Bhubanmangal Krishna Das",
+            "address": "Kunustoria, Tapsi, Po - Jamuria, Dist - Paschim Bardhaman, Pin - 713362"
+        },
+        {
+            "id": "25",
+            "sevaId": 1,
+            "memberName": "Partha Layek",
+            "address": "Gobindapur, Po - R.K. Mission Ashram, Dist - Paschim Bardhaman, Pin - 713305"
+        },
+        {
+            "id": "26",
+            "sevaId": 1,
+            "memberName": "Ashish Kumar Sarkar",
+            "address": "36/1, Chakraborty Lane, Sarkar bari, Budha, Asansol, Po - Asansol, Dist - Paschim Bardhaman, Pin - 713301"
+        },
+        {
+            "id": "27",
+            "sevaId": 1,
+            "memberName": "Nripen Prabhu",
+            "address": "Benimadhab Nagar, Asansol, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "28",
+            "sevaId": 1,
+            "memberName": "Palash Layek",
+            "address": "Gobindapur, Po - Kanyapur, Dist - Paschim Bardhaman, Pin - 713341"
+        },
+        {
+            "id": "29",
+            "sevaId": 1,
+            "memberName": "Jaya Mataji",
+            "address": "Chitra, Burnpur Road, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "30",
+            "sevaId": 1,
+            "memberName": "Biswajir Chakraborty",
+            "address": "Santa, Po - Santa, Dist - Paschim Bardhaman, Pin - 713325"
+        },
+        {
+            "id": "31",
+            "sevaId": 1,
+            "memberName": "Hari Sadhan Maji",
+            "address": "Gopalpur"
+        },
+        {
+            "id": "32",
+            "sevaId": 1,
+            "memberName": "Raja Mukherjee",
+            "address": "Satyajit Nagar, Kalajharia, Dist - Paschim Bardhaman"
+        },
+        {
+            "id": "33",
+            "sevaId": 1,
+            "memberName": "Anil Kumar Gupta",
+            "address": "Panchgachia Gandhi Nagar Dist- Paschim Bardhaman"
+        },
+        {
+            "id": "34",
+            "sevaId": 1,
+            "memberName": "Abhijit Mukherjee"
+        },
+        {
+            "id": "35",
+            "sevaId": 1,
+            "memberName": "Omkarnath lal",
+            "address": "Hillview, Asansol, Dist - Paschim Bardhaman, Pin - 713304"
+        },
+        {
+            "id": "36",
+            "sevaId": 1,
+            "memberName": "Shrestha Banerjee",
+            "relation": "D/o - Aniruddha Banerjee",
+            "address": "Whitefield, Bangalore"
+        },
+        {
+            "id": "37",
+            "sevaId": 1,
+            "memberName": "Rajib Ghosh",
+            "address": "Village - Alinagar, Po - Khottadihi, Dist - Paschim Bardhaman, Pin - 713378"
+        },
+        {
+            "id": "38",
+            "sevaId": 1,
+            "memberName": "Aloke Hazra",
+            "address": "Budha Village, Budha Road"
+        }
+    ]
+}
