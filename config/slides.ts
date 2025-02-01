@@ -1,4 +1,4 @@
-import { getSlides, getSlidesWithSevaDetails } from "@/lib/data";
+import { getSlidesWithSevaDetails } from "@/lib/data";
 import { Slide, CarouselConfig } from "@/types/slide";
 
 export const slides: Slide[] = getSlidesWithSevaDetails();

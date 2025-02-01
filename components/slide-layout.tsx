@@ -1,60 +1,41 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Slide } from "@/types/slide";
-import { SlideHeader } from "@/components/slide-header";
-import { SlideFooter } from "@/components/slide-footer";
+import { Slide, TemplateType } from "@/types/slide";
+import { DefaultTemplate } from "./templates/default-template";
+import { FounderTemplate } from "./templates/founder-template";
+import { SevaTemplate } from "./templates/seva-template";
+import { HistoricalTemplate } from "./templates/historical-template";
 
 interface SlideLayoutProps {
   slide: Slide;
   isActive: boolean;
 }
 
-export default function SlideLayout({ slide, isActive }: SlideLayoutProps) {
-  if (slide.customComponent) {
-    const CustomComponent = slide.customComponent;
-    return <CustomComponent {...slide.customProps} isActive={isActive} />;
+const getTemplate = (type: TemplateType): React.ComponentType<{ slide: any; isActive: boolean }> => {
+  switch (type) {
+    case "founder":
+      return FounderTemplate;
+    case "seva":
+      return SevaTemplate;
+    case "historical":
+      return HistoricalTemplate;
+    default:
+      return DefaultTemplate;
   }
+};
 
+export default function SlideLayout({ slide, isActive }: SlideLayoutProps) {
+  const Template = getTemplate(slide.templateType);
 
   return (
     <motion.div
-      className={`absolute inset-0 w-full h-full ${isActive ? "block" : "hidden"
-        }`}
+      className={`absolute inset-0 w-full h-full ${isActive ? "block" : "hidden"}`}
       initial={{ opacity: 0 }}
       animate={{ opacity: isActive ? 1 : 0 }}
       transition={{ duration: 0.5 }}
     >
-      {/* Background Image - Static */}
-      <div className="absolute inset-0">
-        <img
-          src={slide.imageUrl}
-          alt={slide.sevaName}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
-
-      {/* Animated Content Container */}
-      {isActive && (
-        <>
-          <div>
-            <SlideHeader
-              title={slide.sevaTitle || 'Hare Krishna'}
-              subtitle={slide.address}
-            />
-          </div>
-
-          <div
-
-          >
-            <SlideFooter
-              memberName={slide.memberName}
-              info={slide.address}
-            />
-          </div>
-        </>
-      )}
+      <Template slide={slide} isActive={isActive} />
     </motion.div>
   );
 }

@@ -1,33 +1,35 @@
-export interface SlideTheme {
-  primary?: string;
-  secondary?: string;
-  accent?: string;
-  textColor?: string;
-}
-
-export interface Slide {
+export interface BaseSlide {
   id: string;
-  sevaId: number;
-  sevaName?: string;
-  sevaTitle?: string;
-  memberName: string;
-  relation?: string;
-  address?: string;
+  templateType: 'founder' | 'seva' | 'historical' | 'default';
   imageUrl?: string;
-  layout?: 'default' | 'centered' | 'fullscreen';
-  theme?: SlideTheme;
-  customComponent?: React.ComponentType<any>;
-  customProps?: Record<string, any>;
+  memberName?: string;
+  address?: string;
 }
 
-export interface CarouselConfig {
-  autoplay?: boolean;
-  interval?: number;
-  randomize?: boolean;
-  transition?: {
+export interface FounderSlide extends BaseSlide {
+  templateType: 'founder';
+}
+
+export interface SevaSlide extends BaseSlide {
+  templateType: 'seva';
+}
+
+export interface HistoricalSlide extends BaseSlide {
+  templateType: 'historical';
+}
+
+export type Slide = FounderSlide | SevaSlide | HistoricalSlide | BaseSlide;
+
+export type TemplateType = 'founder' | 'seva' | 'historical' | 'default';
+
+export type CarouselConfig = {
+  autoplay: boolean;
+  interval: number;
+  randomize: boolean;
+  transition: {
     duration: number;
     ease: string;
   };
-  showIndicators?: boolean;
-  pauseOnHover?: boolean;
-}
+  showIndicators: boolean;
+  pauseOnHover: boolean;
+};
